@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Karbon Ayak İzi Hesaplama</title>
+	<link rel="stylesheet" type="text/css" href="bs/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="harici.css">
+	<script type="text/javascript" src="harici.js"></script>
+</head>
+<body>
+
+		<div class="tasiyici" style="background-color:white; height:1480px;" align="center" style="height: 1450px;">
+   <div  >
+    <img src="Mavi%20Uçak%20ve%20Bulutlar%20Veda%20Partisi%20Davetiye.png" style="width:300px; height:200px; margin-top:20px;" /></div>
+	 	<h3><span>1.</span>Bir yıl içerisinde yaptığınız Hava Ulaşımı Saati
+</h3>
+
+<input type="number" name="s1" id="s1" >
+		<div  style="width:500px;">
+        <img src="araba.png" class=" img-responsive"  /> </div>
+		<h3><span>2.</span>Araç / Aylık Ortalama Tüketilen yakıt (₺)
+
+</h3>
+
+<select id="yakit" class="form-control" style="width: 35%; margin-bottom: 10px;">
+	<option value="19" selected>Benzin</option>
+	<option value="22">Dizel</option>
+	<option value="12">LPG</option>
+</select>
+
+<input type="number" name="s2" id="s2" style=" margin-bottom:20px" >
+      <div> <img src="elektrik.jpg" style="width:300px; height:200px;" /></div>
+<h3><span>3.</span>Aylık Elektrik Tüketiminiz
+</h3>
+
+<input type="number" name="s3" id="s3" >
+<br />
+
+
+        <img src="komur.png"  style="width:300px; height:200px;" />
+<h3><span>4.</span>Aylık Isınma Gideriniz
+
+
+</h3>
+
+	<select id="isi" class="form-control" style="width: 35%; margin-bottom:10px">
+		<option value="dgz" selected>Doğalgaz(₺)</option>
+		<option value="kmr">Kömür(Ton)</option>
+		<option value="lpg">LPG(₺)</option>
+		<option value="odn">Odun(Ton)</option>
+	</select>
+	<input type="number" name="s4" id="s4"style=" margin-bottom:10px"><br>
+
+			<button class="btn btn-success" type="button" onclick="hesapla()" style="width:200px">Hesapla</button>
+			<h3 id="sonuc" class="text-center text-danger"></h3>
+			<h3 id="yaz" class="text-center text-info"></h3>
+		</div>
+
+		</body>
+	</html>

@@ -1,0 +1,31 @@
+*{
+	font-family: Trebuchet MS;
+}
+.tasiyici{
+	width: 45%;
+	margin: 20px auto;
+}
+span{
+	color: #808080;
+}
+h2{
+	color: #0d0d0d;
+	margin-bottom: 40px;
+}
+input{
+	border: 2px solid lightgray;
+	outline: 0;
+	width: 35%;
+	height: 35px;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+input:focus{
+		border: 2px solid gray;
+}
+button{
+	margin-top: 20px;
+}
+body{
+background-image:  url(arka.jpg);
+}
